@@ -1,0 +1,233 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Sticky Footer Layout */
+html,
+body{
+    height: 100%;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    background: linear-gradient(
+        135deg,
+        #0f172a,
+        #1e293b,
+        #334155
+    );
+
+    color: white;
+}
+
+/* Main Layout */
+main{
+    flex: 1;
+}
+
+/* Navbar */
+.navbar{
+    background: rgba(255,255,255,0.08) !important;
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.navbar-brand{
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: white !important;
+}
+
+.nav-link{
+    color: rgba(255,255,255,0.8) !important;
+    transition: 0.3s;
+}
+
+.nav-link:hover{
+    color: white !important;
+}
+
+/* Glass Cards */
+.card{
+    background: rgba(255,255,255,0.08) !important;
+    border: 1px solid rgba(255,255,255,0.1) !important;
+    backdrop-filter: blur(12px);
+    border-radius: 24px !important;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    transition: 0.3s ease;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color: white;
+}
+
+/* Paragraphs & Text */
+p,
+label,
+td,
+th{
+    color: rgba(255,255,255,0.85);
+}
+
+.text-muted{
+    color: rgba(255,255,255,0.6) !important;
+}
+
+/* Inputs */
+.form-control{
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.1);
+    color: white;
+    border-radius: 14px;
+    padding: 12px;
+}
+
+.form-control:focus{
+    background: rgba(255,255,255,0.12);
+    color: white;
+    box-shadow: none;
+    border-color: #38bdf8;
+}
+
+.form-control::placeholder{
+    color: rgba(255,255,255,0.5);
+}
+
+/* File Input */
+input[type="file"]::file-selector-button{
+    background: #38bdf8;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    margin-right: 12px;
+}
+
+/* Buttons */
+.btn{
+    border-radius: 14px;
+    padding: 10px 20px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    transform: scale(1.03);
+}
+
+/* Glass Tables */
+.table-responsive{
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+.table{
+    margin-bottom: 0;
+    background: transparent !important;
+}
+
+.table thead{
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(10px);
+}
+
+.table thead th{
+    color: white !important;
+    border-color: rgba(255,255,255,0.08) !important;
+    padding: 18px;
+    background: transparent !important;
+}
+
+.table tbody tr{
+    background: rgba(255,255,255,0.03) !important;
+    transition: 0.3s;
+}
+
+.table tbody tr:hover{
+    background: rgba(255,255,255,0.08) !important;
+}
+
+.table tbody td{
+    color: rgba(255,255,255,0.9) !important;
+    border-color: rgba(255,255,255,0.06) !important;
+    padding: 18px;
+    background: transparent !important;
+}
+
+/* Alerts */
+.alert{
+    border: none;
+    border-radius: 14px;
+}
+
+/* Badges */
+.badge{
+    padding: 8px 12px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+}
+
+/* Footer */
+footer{
+    margin-top: auto;
+
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(10px);
+
+    border-top: 1px solid rgba(255,255,255,0.1);
+
+    color: white;
+
+    text-align: center;
+
+    padding: 16px;
+}
+
+/* Links */
+a{
+    text-decoration: none;
+}
+
+/* Smooth Scroll */
+html{
+    scroll-behavior: smooth;
+}
+
+/* Responsive */
+@media(max-width:768px){
+
+    .card{
+        margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    .table thead th,
+    .table tbody td{
+        padding: 12px;
+    }
+
+}
