@@ -157,6 +157,19 @@ http://localhost/job-portal
 
 ---
 
+# Demo Credentials
+
+## Admin Login
+
+Email: ammu@gmail.com  
+Password: 3805
+
+## User Login
+
+Users can register normally from the website.
+
+---
+
 # Author
 
 ## Avvari Amrutha varshini
