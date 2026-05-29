@@ -1,9 +1,20 @@
 <?php
 
-$conn = mysqli_connect("localhost", "root", "root123", "job_portal");
+$servername = "sql300.infinityfree.com";
+$username   = "ifo_42032923";
+$password   = "3805avt.";
+$database   = "ifo_42032923_jobportal";
 
-if (!$conn) {
-    die("Connection Failed: " . mysqli_connect_error());
+$conn = mysqli_connect(
+    $servername,
+    $username,
+    $password,
+    $database
+);
+
+if(!$conn)
+{
+    die("Connection failed: " . mysqli_connect_error());
 }
 
 ?>
