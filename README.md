@@ -105,6 +105,58 @@ job-portal/
 
 ---
 
+# Screenshots
+
+## Home Page
+![Home](screenshots/Home.png)
+
+---
+
+## Login Page
+![Login](screenshots/Login.png)
+
+---
+
+## Register Page
+![Register](screenshots/Register.png)
+
+---
+
+## User Dashboard
+![User Dashboard](screenshots/UsersDashboard.png)
+
+---
+
+## Available Jobs
+![Available Jobs](screenshots/AvailableJobs.png)
+
+---
+
+## Apply Job
+![Apply Job](screenshots/JobApply.png)
+
+---
+
+## Admin Dashboard
+![Admin Dashboard](screenshots/AdminDashboard.png)
+
+---
+
+## Add Job By Admin
+![Add Job](screenshots/JobAddByAdmin.png)
+
+---
+
+## Manage Jobs
+![Manage Jobs](screenshots/ManageJobsByAdmin.png)
+
+---
+
+## View Applicants
+![View Applicants](screenshots/ViewApplicantsByAdmin.png)
+
+---
+
 # Installation Steps
 
 ## 1. Clone Repository
