@@ -1,6 +1,6 @@
 # Job Portal System
 
-A full-stack Job Portal web application developed using Java, PHP, MySQL, Bootstrap, and Glassmorphism UI Design.  
+A full-stack Job Portal web application developed using PHP, MySQL, HTML5, CSS3, Bootstrap 5, JavaScript, Git/GitHub, XAMPP, MySQL Workbench, InfinityFree Hosting.  
 This project allows users to search and apply for jobs, while administrators can manage job postings and applicants through an admin dashboard.
 
 ---
